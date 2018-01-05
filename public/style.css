@@ -1,0 +1,38 @@
+.jumbotron{
+    background-color: #4267b2;
+    color: white;
+}
+
+.facebookIcon{
+border-radius: 15px;
+margin-top: 21px;
+border-radius: 15px;
+}
+
+h1{
+    margin-left: -88px;
+    font-size: 75px;
+
+}
+
+/* .btn {
+    background-color: transparent;
+    border: solid, white, 2px;
+    color: white;
+} */
+
+.btn-primary{
+    color: #fff;
+    background-color: #337ab700;
+    border-color: #ffffff;
+}
+.btn-primary:hover{
+    color: #4267b2 ;
+    background-color: white;
+    border-color: #ffffff;
+}
+
+.padding{
+    padding: 0px 10px;
+}
+

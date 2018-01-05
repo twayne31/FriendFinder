@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Friend Finder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="http://www.freeiconspng.com/uploads/images-facebook-f-logo-png-transparent-background-page-2-29.png" width="65"
+                        height="65" class="facebookIcon responsive" alt="facebook">
+                </div>
+                <div class="col-lg-10">
+                    <h1>Survey Questions</h1>
+                </div>
+
+            </div>
+
+            <h4>Lets get to know you.</h4>
+            <hr>
+            <div class="row">
+                <div class="col-12">
+                    <h2>About You</h2>
+                    <br>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name1">Name (Required)</label>
+                            <input type="text" class="form-control" id="name1" placeholder="John Doe">
+                            <br>
+                            <label for="photo">Link to photo image (Required)</label>
+                            <input type="text" class="form-control" id="photo" placeholder="http://ilovecatsFace.jpg">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="padding">
+            <h3>Question 1</h3>
+            <h4>Are you energetic in the morning?</h4>
+
+            <select name="Options" class="selectAnswer">
+                <option value="s" disabled selected>Select an option</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+
+            <div class="divResults"></div>
+
+        </div>
+        <div class="padding">
+            <h3>Question 2</h3>
+            <h4>Do you like dogs?</h4>
+
+            <select name="Options" class="selectAnswer">
+                <option value="s" disabled selected>Select an option</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+        </div>
+        <div class="padding">
+            <h3>Question 3</h3>
+            <h4>You like to console love ones?</h4>
+
+            <select name="Options" class="selectAnswer">
+                <option value="s" disabled selected>Select an option</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+        </div>
+        <div class="padding">
+            <h3>Question 4</h3>
+            <h4>Are you a college football fan?</h4>
+
+            <select name="Options" class="selectAnswer">
+                <option value="s" disabled selected>Select an option</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+        </div>
+        <div class="padding">
+            <h3>Question 5</h3>
+            <h4>How much (if any did) you watch "Friends" growing up?</h4>
+
+            <select name="Options" class="selectAnswer">
+                <option value="s" disabled selected>Select an option</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+        </div>
+        <div class="padding">
+            <h3>Question 6</h3>
+            <h4>Are you a techie?</h4>
+
+            <select name="Options" class="selectAnswer">
+                <option value="s" disabled selected>Select an option</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+        </div>
+        <div class="padding">
+            <h3>Question 7</h3>
+            <h4>Do you listen to jazz music?</h4>
+
+            <select name="Options" class="selectAnswer">
+                <option value="s" disabled selected>Select an option</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+        </div>
+        <div class="padding">
+            <h3>Question 8</h3>
+            <h4>Do you use music streaming services?</h4>
+
+            <select name="Options" class="selectAnswer">
+                <option value="s" disabled selected>Select an option</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+        </div>
+        <div class="padding">
+            <h3>Question 9</h3>
+            <h4>Do you like theme parks?</h4>
+
+            <select name="Options" class="selectAnswer">
+                <option value="s" disabled selected>Select an option</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+        </div>
+        <div class="padding">
+            <h3>Question 10</h3>
+            <h4>How often do you use social media? (1 = a ton, 5 = none)</h4>
+
+            <select name="Options" class="selectAnswer">
+                <option value="s" disabled selected>Select an option</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+        </div>
+        <br>
+        <div class="padding">
+            <button class="btn btn-default Submit" id="submit">
+                Submit
+            </button>
+        </div>
+        <script type="text/javascript">
+
+
+            // Question: What does this code do?
+            $(".Submit").on("click", function (event) {
+                event.preventDefault()
+
+                //console.log($('.selectAnswer option:selected'))
+                var answerArray = []
+
+
+                $('.selectAnswer option:selected').each(function (i) {
+
+                    console.log($(this).val())
+                    answerArray.push(parseInt($(this).val()))
+                    console.log(answerArray)
+                })
+
+                // var newAplicant = {
+                //   name : 'Taylor',
+                //   picture : 'addawdasdasddas',
+                //   answers = [1,0,1]
+                // }
+                var newApplicant = {
+                    name: $("#name1").val().trim(),
+                    picture: $("#photo").val().trim(),
+                    answers: answerArray
+                };
+
+                // how can i get all checkboxes?????
+
+                // Question: What does this code do??
+
+
+                $.post("/api/new", newApplicant)
+                    .done(function (data) {
+                        console.log(data);
+                        alert(data.name)
+                        $("#myModal").modal
+                    var image = $("<img src = " + data.picture + " alt = 'picture of new friend'>");
+                    var results = ("New Friend " + data.name + ".");
+                    var space = $("<div> \n\n\n </div>");
+                   $("#myModal").modal();
+                   $(".modal-body").empty();
+                   $("#myModalLabel").empty();
+                   $("#myModalLabel").html("Its A Match!!");
+                   $(".modal-body").append(results);
+                   $(".modal-body").append(space);
+                   $(".modal-body").append(image);
+                   $(".form").trigger("reset");
+                    });
+
+            });
+        </script>
+         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" class="modalClose" data-dismiss="modal" aria-hidden="true"> X </button>
+                        <h4 class="modal-title" id="myModalLabel">Its A Match!!!</h4>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" class="modalClose" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<strong>
+    <a href="routing/apiRoutes.js/friends">Friends JSON</a>
+</strong>    
+</body>
+
+</html>
